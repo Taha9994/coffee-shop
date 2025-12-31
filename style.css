@@ -114,6 +114,53 @@ p {
     transform: scale(1.2) rotate(10deg);
 }
 
+.contact-section {
+    padding: 80px 10%;
+    text-align: center;
+    background-color: #fdf5e6;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #6f4e37;
+    box-shadow: 0 0 8px rgba(111, 78, 55, 0.2);
+}
+
+.btn-submit {
+    padding: 15px;
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn-submit:hover {
+    background-color: #8b5e3c;
+    transform: scale(1.05);
+}
+
 .main-footer {
     background-color: #6f4e37;
     color: white;
